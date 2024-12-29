@@ -1,3 +1,6 @@
+# README.txt
+
+```
 # Backdoor Adversarial Machine Learning Attacks on IoT Traffic Using GCNs
 
 # Description
@@ -18,6 +21,59 @@ malaria_part_8.csv
 malaria_part_9.csv
 mqtt_bed1.csv
 slowite.csv
+
+# Feature Columns
+The dataset contains the following feature columns:
+frame.time_delta
+frame.time_relative
+frame.len
+ip.src
+ip.dst
+tcp.srcport
+tcp.dstport
+tcp.flags
+tcp.time_delta
+tcp.len
+tcp.ack
+tcp.connection.fin
+tcp.connection.rst
+tcp.connection.sack
+tcp.connection.syn
+tcp.flags.ack
+tcp.flags.fin
+tcp.flags.push
+tcp.flags.reset
+tcp.flags.syn
+tcp.flags.urg
+tcp.hdr_len
+tcp.payload
+tcp.pdu.size
+tcp.window_size_value
+tcp.checksum
+mqtt.clientid
+mqtt.clientid_len
+mqtt.conack.flags
+mqtt.conack.val
+mqtt.conflag.passwd
+mqtt.conflag.qos
+mqtt.conflag.reserved
+mqtt.conflag.retain
+mqtt.conflag.willflag
+mqtt.conflags
+mqtt.dupflag
+mqtt.hdrflags
+mqtt.kalive
+mqtt.len
+mqtt.msg
+mqtt.msgtype
+mqtt.qos
+mqtt.retain
+mqtt.topic
+mqtt.topic_len
+mqtt.ver
+mqtt.willmsg_len
+ip.proto
+ip.ttl
 
 # Usage Instructions
 1. Download the repository ZIP file or clone the repository:
@@ -71,5 +127,6 @@ The dataset is distinct from publicly available resources and is not yet release
 
 # Contact
 For further inquiries, contact:
-Dr. Michael Georgiades
-mg723@ic.ac.uk
+Dr. Michael Georgiades (mg723@ic.ac.uk)
+```
+
